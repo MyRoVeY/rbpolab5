@@ -8,3 +8,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
+jwt:
+  secret: ${JWT_SECRET}
+  access-ttl: 15m
+  refresh-ttl: 7d
